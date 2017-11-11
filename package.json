@@ -29,6 +29,6 @@
   },
   "scripts": {
     "test": "mocha test",
-    "start": "bin/peerjs --port ${PORT:=80} --path ${PATH:=/}"
+    "start": "node server.js"
   }
 }
